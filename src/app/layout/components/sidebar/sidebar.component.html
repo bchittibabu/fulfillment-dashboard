@@ -1,10 +1,12 @@
 <div class="sidebar-root">
-  <p-listbox class="menu-list-box" [options]="menuItems()" [(ngModel)]="selectedItem" optionLabel="name"
+  <p-listbox class="menu-list-box" [options]="menuItems()" [(ngModel)]="selectedItem"
   [style]="navWidth()" listStyleClass="p-listbox-custom" [listStyle]="{'max-height': '100vh', 'padding-top': '2.5rem'}">
   <ng-template let-item pTemplate="item">
-    <div class="p-2" mat-list-item [routerLink]="item.route">
-      <div class="list-button">
-        <mat-icon svgIcon="{{item.icon}}"></mat-icon>
+    <div class="p-2" [routerLink]="item.route" [pTooltip]="collapsed() === true? item.label: ''"
+    tooltipPosition="right">
+      <div class="list-button" >
+        <mat-icon svgIcon="{{item.icon}}"
+         ></mat-icon>
         @if (collapsed() === false) {
         <span>{{ item.label }}</span>
         }

@@ -20,112 +20,112 @@ export class PatientsComponent {
   patients = [
     {
       patientId: "646946444995",
-      lastConnectionTime: "12:30 PM, March 5, 2024",
+      lastConnectionTime: "2024-03-05T12:30:00",
       lastSignalStrength: "-85 dBm",
       lastDeviceToConnect: "0025 - Cellular Scale",
       status: "Active"
     },
     {
       patientId: "846843350979",
-      lastConnectionTime: "07:53 AM, Jan 13, 2022",
+      lastConnectionTime: "2022-01-13T07:53:00",
       lastSignalStrength: "-93 dBm",
       lastDeviceToConnect: "0022 - Bluetooth Scale",
       status: "Inactive"
     },
     {
       patientId: "193509128447",
-      lastConnectionTime: "12:30 PM, March 5, 2024",
+      lastConnectionTime: "2024-03-05T12:30:00",
       lastSignalStrength: "--",
       lastDeviceToConnect: "0040 - Bluetooth BPM",
       status: "Active"
     },
     {
       patientId: "229595377084",
-      lastConnectionTime: "12:30 PM, March 5, 2024",
+      lastConnectionTime: "2024-03-05T12:30:00",
       lastSignalStrength: "-72 dBm",
       lastDeviceToConnect: "0003 - Bluetooth Pulse Ox",
       status: "Active"
     },
     {
       patientId: "720544374585",
-      lastConnectionTime: "12:30 PM, March 5, 2024",
+      lastConnectionTime: "2024-03-05T12:30:00",
       lastSignalStrength: "-81 dBm",
       lastDeviceToConnect: "0025 - Cellular Scale",
       status: "Active"
     },
     {
       patientId: "777873447896",
-      lastConnectionTime: "07:53 AM, Jan 13, 2022",
+      lastConnectionTime: "2022-01-13T07:53:00",
       lastSignalStrength: "-99 dBm",
       lastDeviceToConnect: "0022 - Bluetooth Scale",
       status: "Inactive"
     },
     {
       patientId: "193522324796",
-      lastConnectionTime: "07:53 AM, Jan 13, 2022",
+      lastConnectionTime: "2022-01-13T07:53:00",
       lastSignalStrength: "-110 dBm",
       lastDeviceToConnect: "0003 - Bluetooth Pulse Ox",
       status: "Inactive"
     },
     {
       patientId: "166465672621",
-      lastConnectionTime: "12:30 PM, March 5, 2024",
+      lastConnectionTime: "2024-03-05T12:30:00",
       lastSignalStrength: "-77 dBm",
       lastDeviceToConnect: "0043 - Cellular BPM",
       status: "Active"
     },
     {
       patientId: "646946444995",
-      lastConnectionTime: "12:30 PM, March 5, 2024",
+      lastConnectionTime: "2024-03-05T12:30:00",
       lastSignalStrength: "-85 dBm",
       lastDeviceToConnect: "0025 - Cellular Scale",
       status: "Active"
     },
     {
       patientId: "846843350979",
-      lastConnectionTime: "07:53 AM, Jan 13, 2022",
+      lastConnectionTime: "2022-01-13T07:53:00",
       lastSignalStrength: "-93 dBm",
       lastDeviceToConnect: "0022 - Bluetooth Scale",
       status: "Inactive"
     },
     {
       patientId: "193509128447",
-      lastConnectionTime: "12:30 PM, March 5, 2024",
+      lastConnectionTime: "2024-03-05T12:30:00",
       lastSignalStrength: "--",
       lastDeviceToConnect: "0040 - Bluetooth BPM",
       status: "Active"
     },
     {
       patientId: "229595377084",
-      lastConnectionTime: "12:30 PM, March 5, 2024",
+      lastConnectionTime: "2024-03-05T12:30:00",
       lastSignalStrength: "-72 dBm",
       lastDeviceToConnect: "0003 - Bluetooth Pulse Ox",
       status: "Active"
     },
     {
       patientId: "720544374585",
-      lastConnectionTime: "12:30 PM, March 5, 2024",
+      lastConnectionTime: "2024-03-05T12:30:00",
       lastSignalStrength: "-81 dBm",
       lastDeviceToConnect: "0025 - Cellular Scale",
       status: "Active"
     },
     {
       patientId: "777873447896",
-      lastConnectionTime: "07:53 AM, Jan 13, 2022",
+      lastConnectionTime: "2022-01-13T07:53:00",
       lastSignalStrength: "-99 dBm",
       lastDeviceToConnect: "0022 - Bluetooth Scale",
       status: "Inactive"
     },
     {
       patientId: "193522324796",
-      lastConnectionTime: "07:53 AM, Jan 13, 2022",
+      lastConnectionTime: "2022-01-13T07:53:00",
       lastSignalStrength: "-110 dBm",
       lastDeviceToConnect: "0003 - Bluetooth Pulse Ox",
       status: "Inactive"
     },
     {
       patientId: "166465672621",
-      lastConnectionTime: "12:30 PM, March 5, 2024",
+      lastConnectionTime: "2024-03-05T12:30:00",
       lastSignalStrength: "-77 dBm",
       lastDeviceToConnect: "0043 - Cellular BPM",
       status: "Active"

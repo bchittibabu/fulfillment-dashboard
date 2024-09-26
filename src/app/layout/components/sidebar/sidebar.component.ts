@@ -6,10 +6,11 @@ import { ButtonModule } from 'primeng/button';
 import { ListboxModule } from 'primeng/listbox';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
+import { TooltipModule } from 'primeng/tooltip';
 @Component({
   selector: 'app-sidebar',
   standalone: true,
-  imports: [ MatListModule, MatIconModule, ButtonModule, ListboxModule, FormsModule, RouterLink ],
+  imports: [ MatListModule, MatIconModule, ButtonModule, ListboxModule, FormsModule, RouterLink, TooltipModule ],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.scss'
 })

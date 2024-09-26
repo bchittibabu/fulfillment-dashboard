@@ -1,24 +1,19 @@
 import { Routes } from '@angular/router';
-import { PatientsComponent } from './patients/patients/patients.component';
-import { DevicesComponent } from './devices/devices/devices.component';
-import { OrdersComponent } from './orders/orders/orders.component';
 
 export const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'patients'
+    redirectTo: 'dashboard'
   },
   {
-      path: 'patients',
-      component: PatientsComponent
+    path: 'dashboard',
+    loadChildren:  () => import('./layout/dashboard.routes')
+      .then(mod => mod.DashboardRoutes)
   },
   {
-    path: 'devices',
-    component: DevicesComponent
-  },
-  {
-    path: 'orders',
-    component: OrdersComponent
-  },
+    path: '**',
+    loadComponent: () => import('./others/page-not-found/page-not-found.component')
+      .then(mod => mod.PageNotFoundComponent)
+  }
 ];
